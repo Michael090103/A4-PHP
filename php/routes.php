@@ -10,4 +10,8 @@ $routes = [
         'view' => 'FormView',
         'controller' => 'FormController',
     ],
+    'results' => [
+        'view' => 'FormResultsView',
+        'controller' => 'FormResultsController',
+    ],
 ];

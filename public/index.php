@@ -4,10 +4,10 @@
    <head>
      <meta charset="utf-8">
      <title>MVC structuur</title>
-     <link rel="stylesheet" href="css/master.css">
+<!--     <link rel="stylesheet" href="css/master.css">-->
      <script src="https://cdn.tailwindcss.com"></script>
    </head>
-   <body style="">
+   <body class="bg-slate-800">
      <?php
         $app = new \mvc\App();
         echo $app;
