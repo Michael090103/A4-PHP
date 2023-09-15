@@ -10,8 +10,4 @@ $routes = [
         'view' => 'FormView',
         'controller' => 'FormController',
     ],
-    'test' => [
-        'view' => 'TestView',
-        'controller' => 'TestController',
-    ],
 ];
