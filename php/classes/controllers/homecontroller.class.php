@@ -3,6 +3,6 @@ namespace controllers;
 
 use mvc\Controller;
 
-class TestController extends Controller {
-    
+class HomeController extends Controller {
+
 }
