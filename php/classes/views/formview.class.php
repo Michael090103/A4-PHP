@@ -15,7 +15,7 @@ class FormView extends View {
 
     public function getHTML()
     {
-        return '
+        return '       
             <div class="grid gap-3 place-content-center">
                 <form action="results" method="post" class="bg-slate-600 p-5 pt-4 mt-4 rounded-lg">
                     <label for="firstname">Voornaam</label><br/>
