@@ -7,6 +7,8 @@ class HomeView extends View {
 
     public function getHTML()
     {
-        return '<h1>🗿</h1>';
+        return '
+
+        ';
     }
 }
