@@ -1,15 +1,23 @@
 <?php
 namespace views;
 
+use controllers\FormController;
 use mvc\View;
 
 class FormView extends View {
+
+    protected $controller;
+
+    public function __construct(FormController $formController)
+    {
+        $this->controller = $formController;
+    }
 
     public function getHTML()
     {
         return '       
             <div class="grid gap-3 place-content-center">
-                <form method="post" class="bg-slate-600 p-5 pt-4 mt-4 rounded-lg">
+                <form action="results" method="post" class="bg-slate-600 p-5 pt-4 mt-4 rounded-lg">
                     <label for="firstname">Voornaam</label><br/>
                     <input class="rounded" type="text" name="firstname"><br/><br/>
                     <label for="lastname">Achternaam</label><br/>
