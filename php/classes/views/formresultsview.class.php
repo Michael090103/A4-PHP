@@ -4,6 +4,7 @@ namespace views;
 use controllers\FormResultsController;
 use mvc\View;
 
+
 class FormResultsView extends View {
 
     protected $controller;
@@ -15,6 +16,6 @@ class FormResultsView extends View {
 
     public function getHTML()
     {
-        return $this->controller->test();
+
     }
 }
