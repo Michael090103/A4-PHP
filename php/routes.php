@@ -17,4 +17,8 @@ $routes = [
     'back' => [
         'controller' => 'Backcontroller',
     ],
+    'data' => [
+        'view' => 'DataView',
+        'controller' => 'DataController',
+    ],
 ];

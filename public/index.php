@@ -17,7 +17,10 @@
                   <span class="">Form</span>
               </button>
               <button onclick='window.location.href="/A4-PHP/results"'>
-                  <span class="">Results</span>
+                  <span class="">Result</span>
+              </button>
+              <button onclick='window.location.href="/A4-PHP/data"'>
+                  <span class="">Data</span>
               </button>
           </div>
       </nav>
