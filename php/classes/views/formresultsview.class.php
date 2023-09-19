@@ -15,13 +15,15 @@ class FormResultsView extends View {
 
     public function getHTML()
     {
-
-
+        $data = [];
+        if (isset($_POST)) {
+            $data = $this->controller->validateInput([$_POST['firstname'], $_POST['lastname'], $_POST['email']]);
+        }
 
         return "
-            {$firstname}
-            {$lastname}
-            {$email}
+            $data[0]
+            $data[1]
+            $data[2]
         ";
     }
 }
