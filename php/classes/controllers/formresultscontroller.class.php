@@ -5,8 +5,8 @@ use mvc\Controller;
 
 class FormResultsController extends Controller {
 
-    public function test()
+    public function validateInput(array $input)
     {
-        return 'test';
+
     }
 }
