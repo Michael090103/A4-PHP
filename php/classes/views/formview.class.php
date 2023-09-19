@@ -17,13 +17,13 @@ class FormView extends View {
     {
         return '       
             <div class="grid gap-3 place-content-center">
-                <form method="post" class="bg-slate-600 p-5 pt-4 mt-4 rounded-lg">
+                <form action="results" method="post" class="bg-slate-600 p-5 pt-4 mt-4 rounded-lg">
                     <label for="firstname">Voornaam</label><br/>
-                    <input class="rounded text-black px-2" type="text" name="firstname"><br/><br/>
+                    <input class="rounded text-black px-2" type="text" name="firstname" required><br/><br/>
                     <label for="lastname">Achternaam</label><br/>
-                    <input class="rounded text-black px-2" type="text" name="lastname"><br/><br/>
+                    <input class="rounded text-black px-2" type="text" name="lastname" required><br/><br/>
                     <label for="email">E-mail</label><br/>
-                    <input class="rounded text-black px-2" type="text" name="email"><br/><br/>
+                    <input class="rounded text-black px-2" type="text" name="email" required><br/><br/>
                     <button class="bg-slate-400 hover:scale-110 hover:bg-slate-500 duration-75 px-4 py-2 rounded-md" type="submit">Verzenden</button>
                 </form>
             </div>

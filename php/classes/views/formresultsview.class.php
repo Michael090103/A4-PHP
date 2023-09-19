@@ -15,8 +15,13 @@ class FormResultsView extends View {
 
     public function getHTML()
     {
-        return '
-            
-        ';
+
+
+
+        return "
+            {$firstname}
+            {$lastname}
+            {$email}
+        ";
     }
 }
